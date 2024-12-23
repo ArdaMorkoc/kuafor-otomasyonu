@@ -1,59 +1,49 @@
 # Kuaför Otomasyonu
 
-Kuaför Otomasyonu, kuaför salonlarının randevu, müşteri yönetimi, çalışan takibi ve stok yönetimi gibi günlük operasyonlarını dijital olarak düzenlemeyi amaçlayan bir yazılım sistemidir. Bu otomasyon sayesinde kuaförler, müşteri randevularını kolayca yönetebilir, hizmet geçmişini takip edebilir ve çalışanların performansını izleyebilirler. Ayrıca, sistem stok seviyelerini izleyerek malzeme ihtiyaçlarını zamanında belirlemeye yardımcı olur. Kuaför salonlarının daha verimli çalışmasını ve müşteri memnuniyetini artırmasını sağlayan bir çözümdür.
+Kuaför Otomasyonu, kuaför salonlarının iş akışını dijitalleştirmek ve operasyonel süreçlerini iyileştirmek için geliştirilmiş bir yazılım çözümüdür. Projenin çıkış noktası, sektördeki randevu, müşteri yönetimi, muhasebe işlemleri ve çalışan takibi gibi temel zorlukların, yenilikçi bir otomasyon sistemi ile çözülmesidir.
 
-## Başlangıç
+Bu sistem; müşterilerin randevularını kolayca oluşturup yönetebileceği, çalışanların çalışma programlarını düzenleyebileceği, muhaesebe ve yönetici kısmının işletme gelir-giderlerini detaylı bir şekilde takip edebileceği bir altyapı sunar. PostgreSQL veritabanı ile desteklenen yazılım, kuaför salonlarının iş süreçlerini optimize ederek hem verimliliği artırmayı hem de müşteri memnuniyetini üst düzeye çıkarmayı hedefler.
 
-Test
+### Kuaför Otomasyonu Özellikleri
+
+* Randevu Yönetimi : Müşteriler için kolay randevu oluşturma, görüntüleme ve iptal seçenekleri.
+* Personel Arayüzü : Çalışanların randevuları yönetmesi ve çalışma programlarını görme imkanı.
+* Muhasebe Yönetimi : Gelir-gider takibi ve finansal raporların oluşturulması.
+* Yönetici Arayüzü : Sistemdeki tüm kullanıcıları, hizmetleri ve finansal bilgileri yönetme.
 
 ### Gereksinimler
 
-test
+Projeyi çalıştırmak için ihtiyacınız olan programlar aşağıdaki gibidir.
 
-* test
-* test
-* test
+* Visual Studio
+* PostgreSQL v15
 
 ### Kurulum
 
-test
-
 ```
-$ Adım 1 
-$ Adım 2
-$ Adım 3
-```
-
-## Kullanım
-
-test
-
-```
-$ Adım 1 
-$ Adım 2
-$ Adım 3
+$ Gerekli teknolojileri ve proje dosyalarını bilgisayarına indir.
+$ VERİ TABANI klasöründen kuafor2.sql adlı dosyayı postgresql'e aktar.
+$ KuaforRandevu.sln'yi aç
+$ VeriTabaniYardimcisi adlı class'tan bağlantı ayarlarını güncelle
+$ Admin klasöründeki KurumYonetimi.cs'deki bağlantı ayarlarını güncelle
 ```
 
-## Dağıtım
+### Kullanıcılar
 
-test
+* admin@gmail.com / admin
+* muhasebe1@gmail.com / 1234
+* personel1@gmail.com / 1234
+* musteri1@gmail.com / 1234
 
-### Server
 
-* Live:
-* Release:
-* Development:
+### Kullanılan Teknolojiler
 
-### Branches
+* WinForms .NET Framework
+* PostgreSQL
+* Bunifu.UI.WinForms.4.1.1
 
-* Master:
-* Feature:
-* Bugfix:
-* etc...
+## Katkıda Bulunanlar
 
-## Ek Belgeler ve Teşekkür
-
-* test:
-* test:
-* test:
-* vb...
+* Arda Anıl Morkoç
+* Emir Can Diktaş
+* Emre Arslan
