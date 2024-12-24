@@ -67,7 +67,6 @@ Projeye ait demo kullanıcı hesap bilgileri:
 
 ## 📚 Katkıda Bulunanlar
 
-- Arda Anıl Morkoç
 - Emre Arslan
+- Arda Anıl Morkoç
 - Emir Can Diktaş
-
