@@ -10,7 +10,7 @@ INSERT INTO Yetkiler (YetkiAdi) VALUES
 ('Muhasebe'), -- Yetki 3
 ('Yönetici'); -- Yetki 4
 
--- Kullanıcılar Tablosu (Hakkimda ve SadakatPuani kaldırılmış)
+-- Kullanıcılar Tablosu
 CREATE TABLE Kullanicilar (
     KullaniciID SERIAL PRIMARY KEY,
     TamAd VARCHAR(100) NOT NULL,
@@ -52,13 +52,13 @@ CREATE TABLE Hizmetler (
 );
 
 INSERT INTO Hizmetler (HizmetAdi, KategoriID, Aciklama, Fiyat, SureDakika) VALUES
-('Saç Kesimi', 1, 'Saç kesimi hizmeti', 100.00, 30),
-('Saç Boyama', 1, 'Saç boyama hizmeti', 100.00, 30),
-('Cilt Temizliği', 2, 'Siyahnokta vb temizliği hizmeti', 200.00, 60),
-('Manikür', 3, 'Manikür hizmeti', 50.00, 45),
-('Pedikür', 3, 'Pedikür hizmeti', 60.00, 45),
-('Kaş Alma', 4, 'Kaş alma hizmeti', 30.00, 15),
-('Altın Oran Kaş Alma', 4, 'Altın oran Kaş alma hizmeti', 50.00, 15);
+('Saç Kesimi', 1, 'Saç kesimi hizmeti, modern ve klasik tarzlarda, profesyonel ekibimiz tarafından sunulmaktadır.', 1000.00, 30),
+('Saç Boyama', 1, 'Saç boyama hizmeti, geniş renk seçenekleri ve saçınıza zarar vermeyen boyalarla, deneyimli uzmanlarımız tarafından uygulanmaktadır.', 2000.00, 30),
+('Cilt Temizliği', 2, 'Cilt temizliği hizmeti, siyah nokta, akne ve cilt lekeleri için derinlemesine temizlik sağlar. Cildinizi daha sağlıklı ve parlak hale getirir.', 600.00, 60),
+('Manikür', 3, 'Manikür hizmeti, ellerinizin estetik ve sağlıklı görünmesini sağlar.', 350.00, 45),
+('Pedikür', 3, 'Pedikür hizmeti, ayaklarınızın daha sağlıklı ve güzel görünmesini sağlar.', 400.00, 45),
+('Kaş Alma', 4, 'Yüzünüze en uygun kaş şeklini oluşturmak için profesyonel bir şekilde yapılır. Doğal ve estetik bir görünüm sağlar.', 200.00, 15),
+('Bıyık Alma', 4, 'Bıyık alma hizmeti, yüzünüzün şekline uygun olarak profesyonel tekniklerle yapılır. cildinizi tahriş etmeden temiz bir sonuç sunar.', 50.00, 15);
 
 -- Randevular
 CREATE TABLE Randevular (

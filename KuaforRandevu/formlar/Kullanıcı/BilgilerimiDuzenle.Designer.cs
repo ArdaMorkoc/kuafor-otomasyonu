@@ -51,9 +51,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(247, 98);
+            this.button1.Location = new System.Drawing.Point(247, 146);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 111);
+            this.button1.Size = new System.Drawing.Size(100, 63);
             this.button1.TabIndex = 43;
             this.button1.Text = "Göster";
             this.button1.UseVisualStyleBackColor = false;
@@ -210,9 +210,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.yeniadsoyad);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BilgilerimiDuzenle";
-            this.Size = new System.Drawing.Size(334, 344);
+            this.Size = new System.Drawing.Size(360, 344);
             this.Load += new System.EventHandler(this.BilgilerimiDuzenle_Load1);
             this.ResumeLayout(false);
             this.PerformLayout();

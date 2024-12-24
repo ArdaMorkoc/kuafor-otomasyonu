@@ -71,10 +71,10 @@
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel1.Location = new System.Drawing.Point(-1, -2);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(257, 565);
+            this.panel1.Size = new System.Drawing.Size(256, 565);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -96,25 +96,27 @@
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Image = global::KuaforRandevu.Properties.Resources.hakkimizda;
             this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(3, 401);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Location = new System.Drawing.Point(0, 401);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(247, 45);
+            this.button6.Size = new System.Drawing.Size(256, 46);
             this.button6.TabIndex = 35;
-            this.button6.Text = "Hakkımızda";
+            this.button6.Text = "    Hakkımızda";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.admindon_btn);
             this.groupBox1.Controls.Add(this.muhasebedon_btn);
             this.groupBox1.Controls.Add(this.personeldon_btn);
-            this.groupBox1.Controls.Add(this.admindon_btn);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.groupBox1.Location = new System.Drawing.Point(30, 478);
+            this.groupBox1.Location = new System.Drawing.Point(47, 470);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Size = new System.Drawing.Size(164, 66);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
@@ -129,10 +131,10 @@
             this.muhasebedon_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.muhasebedon_btn.Image = global::KuaforRandevu.Properties.Resources.icons8_calculator_24__1_;
             this.muhasebedon_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.muhasebedon_btn.Location = new System.Drawing.Point(59, 22);
-            this.muhasebedon_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.muhasebedon_btn.Location = new System.Drawing.Point(55, 18);
+            this.muhasebedon_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.muhasebedon_btn.Name = "muhasebedon_btn";
-            this.muhasebedon_btn.Size = new System.Drawing.Size(36, 41);
+            this.muhasebedon_btn.Size = new System.Drawing.Size(47, 41);
             this.muhasebedon_btn.TabIndex = 28;
             this.muhasebedon_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.muhasebedon_btn.UseVisualStyleBackColor = false;
@@ -146,8 +148,8 @@
             this.personeldon_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.personeldon_btn.Image = global::KuaforRandevu.Properties.Resources.personel;
             this.personeldon_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.personeldon_btn.Location = new System.Drawing.Point(51, 25);
-            this.personeldon_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.personeldon_btn.Location = new System.Drawing.Point(55, 18);
+            this.personeldon_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.personeldon_btn.Name = "personeldon_btn";
             this.personeldon_btn.Size = new System.Drawing.Size(47, 41);
             this.personeldon_btn.TabIndex = 29;
@@ -161,10 +163,10 @@
             this.admindon_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.admindon_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.admindon_btn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.admindon_btn.Image = global::KuaforRandevu.Properties.Resources.insanicon;
+            this.admindon_btn.Image = global::KuaforRandevu.Properties.Resources.admin;
             this.admindon_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.admindon_btn.Location = new System.Drawing.Point(51, 22);
-            this.admindon_btn.Margin = new System.Windows.Forms.Padding(4);
+            this.admindon_btn.Location = new System.Drawing.Point(55, 18);
+            this.admindon_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.admindon_btn.Name = "admindon_btn";
             this.admindon_btn.Size = new System.Drawing.Size(47, 41);
             this.admindon_btn.TabIndex = 30;
@@ -176,6 +178,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Location = new System.Drawing.Point(33, 234);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 1);
             this.panel2.TabIndex = 30;
@@ -188,12 +191,12 @@
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.Image = global::KuaforRandevu.Properties.Resources.icons8_business_30__1_;
             this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(6, 294);
-            this.button5.Margin = new System.Windows.Forms.Padding(4);
+            this.button5.Location = new System.Drawing.Point(0, 298);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(247, 45);
+            this.button5.Size = new System.Drawing.Size(256, 46);
             this.button5.TabIndex = 28;
-            this.button5.Text = "Randevularım";
+            this.button5.Text = "    Randevularım";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
@@ -217,8 +220,8 @@
             this.anasayfa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.anasayfa.Image = global::KuaforRandevu.Properties.Resources.icons8_home_page_50;
             this.anasayfa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.anasayfa.Location = new System.Drawing.Point(58, 176);
-            this.anasayfa.Margin = new System.Windows.Forms.Padding(4);
+            this.anasayfa.Location = new System.Drawing.Point(51, 176);
+            this.anasayfa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.anasayfa.Name = "anasayfa";
             this.anasayfa.Size = new System.Drawing.Size(51, 41);
             this.anasayfa.TabIndex = 27;
@@ -234,8 +237,8 @@
             this.cikisyap.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cikisyap.Image = global::KuaforRandevu.Properties.Resources.icons8_exit_button_50;
             this.cikisyap.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cikisyap.Location = new System.Drawing.Point(142, 176);
-            this.cikisyap.Margin = new System.Windows.Forms.Padding(4);
+            this.cikisyap.Location = new System.Drawing.Point(152, 176);
+            this.cikisyap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cikisyap.Name = "cikisyap";
             this.cikisyap.Size = new System.Drawing.Size(51, 41);
             this.cikisyap.TabIndex = 26;
@@ -251,12 +254,12 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.Image = global::KuaforRandevu.Properties.Resources.icons8_contact_info_30;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(6, 349);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Location = new System.Drawing.Point(0, 350);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(247, 41);
+            this.button4.Size = new System.Drawing.Size(259, 41);
             this.button4.TabIndex = 24;
-            this.button4.Text = "Bilgilerimi düzenle";
+            this.button4.Text = " Bilgilerimi düzenle";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -265,7 +268,7 @@
             // 
             this.pictureBox1.Image = global::KuaforRandevu.Properties.Resources.u902759511611;
             this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox1.Location = new System.Drawing.Point(76, 14);
+            this.pictureBox1.Location = new System.Drawing.Point(80, 14);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(96, 96);
@@ -281,12 +284,12 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Image = global::KuaforRandevu.Properties.Resources.icons8_calendar_30;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(5, 242);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(0, 246);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 41);
+            this.button1.Size = new System.Drawing.Size(256, 41);
             this.button1.TabIndex = 23;
-            this.button1.Text = "Randevu Oluştur";
+            this.button1.Text = " Randevu Oluştur";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -297,7 +300,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = global::KuaforRandevu.Properties.Resources.minimizer;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(1014, 12);
+            this.button3.Location = new System.Drawing.Point(1013, 12);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(41, 28);
@@ -321,17 +324,19 @@
             // 
             // hakkimizda1
             // 
-            this.hakkimizda1.Location = new System.Drawing.Point(353, 24);
+            this.hakkimizda1.Location = new System.Drawing.Point(353, 25);
+            this.hakkimizda1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.hakkimizda1.Name = "hakkimizda1";
-            this.hakkimizda1.Size = new System.Drawing.Size(642, 492);
+            this.hakkimizda1.Size = new System.Drawing.Size(643, 492);
             this.hakkimizda1.TabIndex = 26;
             // 
             // karsilama1
             // 
             this.karsilama1.BackColor = System.Drawing.Color.Transparent;
             this.karsilama1.Location = new System.Drawing.Point(275, 12);
+            this.karsilama1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.karsilama1.Name = "karsilama1";
-            this.karsilama1.Size = new System.Drawing.Size(753, 541);
+            this.karsilama1.Size = new System.Drawing.Size(753, 542);
             this.karsilama1.TabIndex = 24;
             this.karsilama1.Load += new System.EventHandler(this.karsilama1_Load);
             // 
@@ -340,7 +345,7 @@
             this.randevularim1.Location = new System.Drawing.Point(275, 58);
             this.randevularim1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.randevularim1.Name = "randevularim1";
-            this.randevularim1.Size = new System.Drawing.Size(814, 473);
+            this.randevularim1.Size = new System.Drawing.Size(813, 473);
             this.randevularim1.TabIndex = 25;
             // 
             // bilgilerimiDuzenle

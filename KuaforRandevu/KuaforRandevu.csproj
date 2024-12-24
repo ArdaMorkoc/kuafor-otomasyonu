@@ -525,6 +525,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PngItem_803221-Kopya.ico" />
+    <None Include="Resources\admin.png" />
     <None Include="Resources\hakkimizda.png" />
     <None Include="Resources\ArEm Logo.jpg" />
     <None Include="Resources\2d2c3144-1e3e-4dda-8700-127b9c590548.jpg" />

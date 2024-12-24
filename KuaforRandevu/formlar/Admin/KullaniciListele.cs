@@ -68,19 +68,34 @@ namespace KuaforRandevu.formlar
 
         // Kullanıcıları başlangıçta listeleyen metod
         private void KullaniciListeleHepsi()
-        {
-            using (var baglan = VeriTabaniYardimcisi.GetConnection())
-            {
-                baglan.Open();
-                da = new NpgsqlDataAdapter("SELECT * FROM Kullanicilar", baglan);
-                DataSet ds = new DataSet();
-                da.Fill(ds, "KullaniciTablosu");
-                dataGridView1.DataSource = ds.Tables["KullaniciTablosu"];
-                cm = (CurrencyManager)BindingContext[ds.Tables["KullaniciTablosu"]];
-            }
+{
+    using (var baglan = VeriTabaniYardimcisi.GetConnection())
+    {
+        baglan.Open();
+        string query = @"
+            SELECT 
+                k.KullaniciID, 
+                k.TamAd, 
+                k.Eposta, 
+                k.Sifre,
+                k.TelefonNumarasi, 
+                y.YetkiAdi,
+                k.KayitTarihi
+            FROM 
+                Kullanicilar k
+            JOIN 
+                Yetkiler y ON k.YetkiID = y.YetkiID";
 
-            UpdatePositionLabel();
-        }
+        da = new NpgsqlDataAdapter(query, baglan);
+        DataSet ds = new DataSet();
+        da.Fill(ds, "KullaniciTablosu");
+        dataGridView1.DataSource = ds.Tables["KullaniciTablosu"];
+        cm = (CurrencyManager)BindingContext[ds.Tables["KullaniciTablosu"]];
+    }
+
+    UpdatePositionLabel();
+}
+
 
         private void UpdatePositionLabel()
         {
