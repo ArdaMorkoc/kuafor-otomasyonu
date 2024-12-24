@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26C13FDE-D516-4B6A-A229-B89AB76C73A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KuaforRandevu</RootNamespace>
+    <AssemblyName>KuaforRandevu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=3.2.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRating, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuRating.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSeparator, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuSeparator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShapes, Version=4.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuShapes.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSnackbar, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuSnackbar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToggleSwitch, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.Deprecated, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.4.1.1\lib\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=4.0.10.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Npgsql.4.0.10\lib\net451\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formlar\Kullanıcı\BilgilerimiDuzenle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\BilgilerimiDuzenle.Designer.cs">
+      <DependentUpon>BilgilerimiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\Hakkimizda.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\Hakkimizda.Designer.cs">
+      <DependentUpon>Hakkimizda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\Randevularim.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\Randevularim.Designer.cs">
+      <DependentUpon>Randevularim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Personel\CalismaProgrami.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Personel\CalismaProgrami.Designer.cs">
+      <DependentUpon>CalismaProgrami.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\FinansRaporlari.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\FinansRaporlari.Designer.cs">
+      <DependentUpon>FinansRaporlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Muhasebe\GiderEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Muhasebe\GiderEkle.Designer.cs">
+      <DependentUpon>GiderEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\karsilama.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\karsilama.Designer.cs">
+      <DependentUpon>karsilama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\KayitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\KayitForm.Designer.cs">
+      <DependentUpon>KayitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Admin\AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Admin\AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Admin\KurumYonetimi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Admin\KurumYonetimi.Designer.cs">
+      <DependentUpon>KurumYonetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Muhasebe\MuhasebeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Muhasebe\MuhasebeForm.Designer.cs">
+      <DependentUpon>MuhasebeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Personel\PersonelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Personel\PersonelForm.Designer.cs">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\KullaniciForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\KullaniciForm.Designer.cs">
+      <DependentUpon>KullaniciForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Admin\KullaniciListele.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Admin\KullaniciListele.Designer.cs">
+      <DependentUpon>KullaniciListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="formlar\Personel\RandevuListele.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Personel\RandevuListele.Designer.cs">
+      <DependentUpon>RandevuListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\RandevuOlustur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formlar\Kullanıcı\RandevuOlustur.Designer.cs">
+      <DependentUpon>RandevuOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="VeriTabaniYardimcisi.cs" />
+    <Compile Include="formlar\yuklemeekran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formlar\yuklemeekran.Designer.cs">
+      <DependentUpon>yuklemeekran.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formlar\Kullanıcı\BilgilerimiDuzenle.resx">
+      <DependentUpon>BilgilerimiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Kullanıcı\Hakkimizda.resx">
+      <DependentUpon>Hakkimizda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Kullanıcı\Randevularim.resx">
+      <DependentUpon>Randevularim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Personel\CalismaProgrami.resx">
+      <DependentUpon>CalismaProgrami.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\FinansRaporlari.resx">
+      <DependentUpon>FinansRaporlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Muhasebe\GiderEkle.resx">
+      <DependentUpon>GiderEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Kullanıcı\karsilama.resx">
+      <DependentUpon>karsilama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\KayitForm.resx">
+      <DependentUpon>KayitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Admin\AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Admin\KurumYonetimi.resx">
+      <DependentUpon>KurumYonetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Muhasebe\MuhasebeForm.resx">
+      <DependentUpon>MuhasebeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Personel\PersonelForm.resx">
+      <DependentUpon>PersonelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Kullanıcı\KullaniciForm.resx">
+      <DependentUpon>KullaniciForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Admin\KullaniciListele.resx">
+      <DependentUpon>KullaniciListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Personel\RandevuListele.resx">
+      <DependentUpon>RandevuListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\Kullanıcı\RandevuOlustur.resx">
+      <DependentUpon>RandevuOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formlar\yuklemeekran.resx">
+      <DependentUpon>yuklemeekran.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85a90998ecec81d649673e08c7ed82e7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barber-Logo-PNG-Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dersprogram3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calculator-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calculator-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finans1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insanicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3682323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80-803221_clip-art-salon-solutions-divina-care-hair-logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6713896.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\80-803221_clip-art-salon-solutions-divina-care-hair-logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Communication-email-blue-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-png-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2f4d40d0cb1e3f3155fe092ae06bb798.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cansu-dere-v0-mqogtcxyt41c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\692393c1f7a9a4cf2a2469a233432508.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u90275951161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\u902759511611.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tiktok-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-youtube-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-button-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-page-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-instagram-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-100 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tiktok-65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-youtube-65.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hairdresser-beauty-parlour-comb-clip-art-the-illustrator-did-the-hair-styling.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-woman-face-salon-hair-logo-png-image_6103665.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciqe4ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-youtube-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tiktok-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hide-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gmail-logo-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-phone-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-calendar-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-business-30 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contact-info-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PngItem_803221-Kopya.ico" />
+    <None Include="Resources\hakkimizda.png" />
+    <None Include="Resources\ArEm Logo.jpg" />
+    <None Include="Resources\2d2c3144-1e3e-4dda-8700-127b9c590548.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

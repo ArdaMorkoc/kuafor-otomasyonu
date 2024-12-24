@@ -1,0 +1,11 @@
+Proje dosyalarındaki VeriTabaniYardimcisi adlı class'tan
+veri tabanı bağlantı bilgilerini ayarlayabilirsiniz.
+(Admin klasöründeki KurumYonetimi.cs dosyasının 21,25 ve 26. satırını kendiniz ayarlamalısınız)
+
+Örnek hesaplar:
+Admin = admin@gmail.com / admin
+Muhasebe = muhasebe1@gmail.com / 1234
+Personel = personel1@gmail.com / 1234
+Müşteri = musteri1@gmail.com / 1234
+
+sql yedeği : https://onecompiler.com/postgresql/42zw2ny2p

@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\admin\\kurumyonetimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\admin\\kurumyonetimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\admin\\kurumyonetimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\admin\\kurumyonetimi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\admin\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\admin\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevularim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevularim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevuolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevuolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\finansraporlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\finansraporlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\muhasebe\\muhasebeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\muhasebe\\muhasebeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\muhasebe\\giderekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\muhasebe\\giderekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\finansraporlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\finansraporlari.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\personel\\randevulistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\personel\\randevulistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\personel\\calismaprogrami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\personel\\calismaprogrami.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\personel\\personelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\personel\\personelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\personel\\randevulistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\personel\\randevulistele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\personel\\personelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\personel\\personelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|c:\\users\\earslan\\desktop\\23.12.2024 20.05 kuaforotomasyon\\kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevuolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C13FDE-D516-4B6A-A229-B89AB76C73A1}|KuaforRandevu\\KuaforRandevu.csproj|solutionrelative:kuaforrandevu\\formlar\\kullan\u0131c\u0131\\randevuolustur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KurumYonetimi.cs",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "ViewState": "AgIAAKYBAAAAAAAAAAAAwMQBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:46:08.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KurumYonetimi.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Admin\\KurumYonetimi.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:46:05.461Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\AdminForm.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Admin\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Admin\\AdminForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Admin\\AdminForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:46:03.433Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Randevularim.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\Randevularim.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\Randevularim.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\Randevularim.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\Randevularim.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:46:00.122Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonelForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\PersonelForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Personel\\PersonelForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:52:10.16Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RandevuListele.cs",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAkwGsBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:35:19.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RandevuListele.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Personel\\RandevuListele.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\RandevuListele.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Personel\\RandevuListele.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:31:26.227Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinansRaporlari.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\FinansRaporlari.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\FinansRaporlari.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:54:24.012Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FinansRaporlari.cs",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\FinansRaporlari.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAcwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T18:45:46.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RandevuOlustur.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T17:04:34.815Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiderEkle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Muhasebe\\GiderEkle.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Muhasebe\\GiderEkle.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Muhasebe\\GiderEkle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Muhasebe\\GiderEkle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:52:46.681Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MuhasebeForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Muhasebe\\MuhasebeForm.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Muhasebe\\MuhasebeForm.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Muhasebe\\MuhasebeForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Muhasebe\\MuhasebeForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:52:43.947Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonelForm.cs",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Personel\\PersonelForm.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:07:13.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CalismaProgrami.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\CalismaProgrami.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Personel\\CalismaProgrami.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Personel\\CalismaProgrami.cs [Tasar\u0131m]",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Personel\\CalismaProgrami.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:24:54.008Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RandevuOlustur.cs",
+              "DocumentMoniker": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "RelativeDocumentMoniker": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "ToolTip": "C:\\Users\\earslan\\Desktop\\23.12.2024 20.05 kuaforotomasyon\\KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "RelativeToolTip": "KuaforRandevu\\formlar\\Kullan\u0131c\u0131\\RandevuOlustur.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAuwMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T17:04:36.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
